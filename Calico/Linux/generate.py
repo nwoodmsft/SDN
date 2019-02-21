@@ -356,7 +356,7 @@ spec:
             path: /var/run/calico
         - name: etc-kubernetes
           hostPath:
-            path: $HOME/kube/kubelet
+            path: $HOME/.kube
         - name: var-lib-calico
           hostPath:
             path: /var/lib/calico
